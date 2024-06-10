@@ -1,0 +1,166 @@
+.loading,
+.error {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.voter-table-container {
+    overflow-x: auto; 
+    width: 100%;
+}
+
+.table-container {
+    overflow-y: auto; 
+    max-height: 500px;
+}
+
+.MuiPaper-root {
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+.MuiToolbar-root {
+    align-items: center !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.MuiTypography-root {
+    font-weight: bold;
+}
+
+.MuiTextField-root {
+    margin-bottom: 10px;
+}
+
+.MuiTable-root {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 17px);
+
+}
+
+.MuiTableHead-root {
+    background-color: #f5f5f5;
+    height: 50px;
+}
+
+.MuiTableCell-head {
+    font-weight: bold;
+    background-color: #fff4ef;
+}
+
+.MuiTableCell-root {
+    padding: 8px !important; 
+    font-size: 14px !important;
+    border-bottom: 1px solid #e0e0e0 !important; 
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.MuiTableCell-root:nth-child(11) { 
+    width: 12%;
+}
+
+.status-active {
+    background-color: #d4f4db;
+    color: #008000 !important;
+    border-radius: 15px ;
+    padding: 5px 10px !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    display: inline-block !important;
+    width: 58px;
+    border: 2px solid #008000;
+}
+
+.status-pending {
+    background-color: #fdefd0; 
+    color: #ffa500 !important; 
+    border-radius: 15px;
+    padding: 5px 10px !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    display: inline-block !important;
+    width: 58px;
+    border: 2px solid #ffa500;
+}
+
+.MuiIconButton-root {
+    padding: 5px;
+}
+
+.MuiMenu-paper {
+    width: 150px;
+    margin-left: -30px;
+}
+
+.MuiMenuItem-root {
+    font-size: 14px; 
+    padding: 8px 16px;
+}
+
+.menu-item {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.menu-paper {
+    border: 1px solid #ddd;
+    box-shadow:0px 0px 0px 0px  !important;
+}
+
+@media (max-width: 768px) {
+    .MuiTableCell-head,
+    .MuiTableCell-root {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .MuiTextField-root {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .MuiToolbar-root {
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .MuiTable-root {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .MuiTablePagination-root .MuiSelect-select {
+        padding: 4px 6px; 
+        font-size: 10px;
+    }
+
+    .MuiTablePagination-root .MuiTablePagination-caption,
+    .MuiTablePagination-root .MuiTablePagination-input {
+        font-size: 10px;
+    }
+    .MuiTablePagination-selectLabel {
+        font-size: 12px !important;
+    }
+    .MuiTablePagination-displayedRows {
+        font-size: 12px !important;
+    }
+    .MuiTablePagination-actions {
+        font-size: 12px !important;
+    }
+}
