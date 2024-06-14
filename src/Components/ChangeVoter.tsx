@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import { useVoterStore } from './Store';
-import { Voter } from './types';
+import { useVoterStore } from '../Store/Store';
+import { Voter } from '../Components/types';
 import { Paper, Typography, FormControl, InputLabel, Select, TextField, Button, CircularProgress } from '@mui/material';
 import dayjs from 'dayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import axios from 'axios';
-import './ChangeVoter.css';
+import '../Styles/ChangeVoter.css';
 
 interface ChangeVoterProps {
     currentVoter: Voter | null;

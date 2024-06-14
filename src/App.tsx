@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import VoterTable from './VoterTable';
+import VoterTable from './Components/VoterTable';
 
 function App() {
   return (

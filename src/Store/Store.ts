@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { Voter } from "./types";
+import { Voter } from "../Components/types";
 
 interface Store {
     voters: Voter[];

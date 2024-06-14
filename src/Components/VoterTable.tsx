@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useVoters } from './useVoters';
 import { Voter } from './types';
-import { useVoterStore } from './Store';
+import { useVoterStore } from '../Store/Store';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, IconButton, Menu, MenuItem, TablePagination, TextField, Toolbar, Typography} from '@mui/material';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import ChangeVoter from './ChangeVoter';
-import './VoterTable.css';
+import '../Styles/VoterTable.css';
 
 const VoterTable = () => {
     const { data, isLoading, error } = useVoters();
